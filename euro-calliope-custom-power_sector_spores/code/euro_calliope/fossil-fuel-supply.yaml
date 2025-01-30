@@ -1,0 +1,41 @@
+techs:  # emissions from https://www.volker-quaschning.de/datserv/CO2-spez/index_e.php
+    methane_supply:
+        essentials:
+            name: Natural gas
+            carrier: methane
+            parent: supply
+        costs:
+            monetary:
+                om_prod: 0.0032074509402532712  # (10,000 EUR2015/MWh)
+            co2:
+                om_prod: 2.0   # (10,000 tCO2/MWh)
+    diesel_supply:
+        essentials:
+            name: Diesel
+            carrier: diesel
+            parent: supply
+        costs:
+            monetary:
+                om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+            co2:
+                om_prod: 2.6   # (10,000 tCO2/MWh)
+    kerosene_supply:
+        essentials:
+            name: Kerosene
+            carrier: kerosene
+            parent: supply
+        costs:
+            monetary:
+                om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+            co2:
+                om_prod: 2.7   # (10,000 tCO2/MWh)
+    methanol_supply:
+        essentials:
+            name: Methanol
+            carrier: methanol
+            parent: supply
+        costs:
+            monetary:
+                om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+            co2:
+                om_prod: 2.6   # (10,000 tCO2/MWh) | ASSUME: same as emissions for crude oil
